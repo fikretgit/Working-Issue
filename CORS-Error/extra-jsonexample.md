@@ -6,7 +6,7 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManageCorsUsing.html
 ```
 
 samples;
-
+```
 [{
     "AllowedHeaders": [
         "*"
@@ -26,9 +26,10 @@ samples;
     ],
     "MaxAgeSeconds": 3000
 }]
+```
 
 we can arrange it like;
-
+```
 [{
     "AllowedHeaders": [
         "*"
@@ -44,3 +45,4 @@ we can arrange it like;
     ],
     "MaxAgeSeconds": 3000
 }]
+```
